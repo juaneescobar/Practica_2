@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.juanesteban.laboratorio_2.SplashActivity"
+    android:orientation="vertical"
+
+    android:background="#5b9648">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50pt">
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/alex_brush"
+        android:gravity="center"
+        android:text="Snake Clip"
+        android:textAllCaps="false"
+        android:textSize="30pt" />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="50pt"
+        android:src="@mipmap/snake"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50pt">
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/alex_brush"
+        android:gravity="center"
+        android:text="Loading..."
+        android:textAllCaps="false"
+        android:textSize="20pt"
+        android:textStyle="bold" />
+
+</LinearLayout>
